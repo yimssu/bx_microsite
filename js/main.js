@@ -38,7 +38,7 @@ window.addEventListener('DOMContentLoaded', function () {
     container.addListener((e) => {
 
         let scrollTop = container.scrollTop;
-        $('.posNum').html(scrollTop)
+        // $('.posNum').html(scrollTop)
 
         if(scrollTop >= 0){
             $('.ac02_01').addClass('on');
