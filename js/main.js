@@ -38,7 +38,7 @@ window.addEventListener('DOMContentLoaded', function () {
     container.addListener((e) => {
 
         let scrollTop = container.scrollTop;
-        // $('.posNum').html(scrollTop)
+        $('.posNum').html(scrollTop)
 
         if(scrollTop >= 0){
             $('.ac02_01').addClass('on');
@@ -289,20 +289,29 @@ window.addEventListener('DOMContentLoaded', function () {
         }
 
         if(scrollTop >= 25800){
-            $('.text01_footer').addClass('on');
+            $('.text01_10').addClass('on');
         }
         if(scrollTop >= 25800){
-            $('.text02_footer').addClass('on');
+            $('.text02_10').addClass('on');
         }
         if(scrollTop >= 25800){
-            $('.text03_footer').addClass('on');
+            $('.text03_10').addClass('on');
         }
         if(scrollTop >= 25800){
-            $('.image05_footer').addClass('on');
+            $('.image05_10').addClass('on');
         }
         if(scrollTop >= 25800){
-            $('.image02_footer').addClass('on');
+            $('.image02_10').addClass('on');
         }
+
+
+        if(scrollTop >= 26620){
+            $('.title01_footer').addClass('on');
+        }
+        if(scrollTop >= 26778){
+            $('.title02_footer').addClass('on');
+        }
+
 
 
         if(scrollTop >= 100) { // 숫자에 따라 아래로 스크롤 했을 때 사라지는 영역의 크기가 바뀝니다.
@@ -370,7 +379,7 @@ window.addEventListener('DOMContentLoaded', function () {
         duration: 15,
         repeat: -1,
       });
-      gsap.to(".ac_02_footer", {
+      gsap.to(".ac_02_10", {
         rotation: 360,
         ease: "none",
         duration: 15,
@@ -386,7 +395,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
 
 
-      gsap.to(".bottom_frame_footer", {
+      gsap.to(".bottom_frame_10", {
         // 사진 가로 크기
         x: -1611, 
         ease: "none",

@@ -2037,20 +2037,20 @@ transform: translateY(0);
 
 
 
-/*********** footer *******************************************/
-#footer{
+/*********** section10 *******************************************/
+#section10 {
     position: relative;
     Height: 800px;
     background: rgb(0, 0, 0);
     overflow: hidden;
 }
-#footer .top_left_footer { 
+#section10 .top_left_10 { 
     position: absolute;
     left: 50px;
     top: 50px;
     z-index: 100;
 }
-#footer .text01_footer { 
+#section10 .text01_10 { 
     position: absolute;
     left: 215px;
     top: 220px;
@@ -2059,11 +2059,11 @@ transform: translateY(0);
     transform: translateX(-100px);
     transition: all 1s;
 }
-#footer .text01_footer.on {
+#section10 .text01_10.on {
     opacity: 1;
     transform:none;
 }
-#footer .text02_footer { 
+#section10 .text02_10 { 
     position: absolute;
     left: 215px;
     top: 350px;
@@ -2072,11 +2072,11 @@ transform: translateY(0);
     transform: translateX(100px);
     transition: all 1s;
 }
-#footer .text02_footer.on {
+#section10 .text02_10.on {
     opacity: 1;
     transform:none;
 }
-#footer .text03_footer { 
+#section10 .text03_10 { 
     position: absolute;
     left: 215px;
     top: 480px;
@@ -2085,24 +2085,24 @@ transform: translateY(0);
     transform: translateX(-100px);
     transition: all 1s;
 }
-#footer .text03_footer.on {
+#section10 .text03_10.on {
     opacity: 1;
     transform:none;
 }
-#footer .text04_footer { 
+#section10 .text04_10 { 
     position: absolute;
     left: 600px;
     top: 370px;
     z-index: 100;
 }
 
-#footer .image01_footer { 
+#section10 .image01_10 { 
     position: absolute;
     left: -50px;
     bottom: -30px;
     z-index: 100;
 }
-#footer .image02_footer { 
+#section10 .image02_10 { 
     position: absolute;
     left: 150px;
     top: 120px;
@@ -2110,22 +2110,22 @@ transform: translateY(0);
     transform: translateX(-100px);
     transition: all 1s;
 }
-#footer .image02_footer.on {
+#section10 .image02_10.on {
     transform:none;
 }
-#footer .image03_footer { 
+#section10 .image03_10 { 
     position: absolute;
     left: 1000px;
     top: 250px;
     z-index: 100;
 }
-#footer .image04_footer { 
+#section10 .image04_10 { 
     position: absolute;
     left: 1170px;
     top: 120px;
     z-index: 100;
 }
-#footer .image05_footer { 
+#section10 .image05_10 { 
     position: absolute;
     left: 1250px;
     top: 120px;
@@ -2133,23 +2133,23 @@ transform: translateY(0);
     transform: translateX(150px);
     transition: all 1s;
 }
-#footer .image05_footer.on {
+#section10 .image05_10.on {
     transform:none;
 }
-#footer .image06_footer { 
+#section10 .image06_10 { 
     position: absolute;
     right: -30px;
     bottom: 10px;
     z-index: 100;
 }
 
-#footer .ac_01_footer { 
+#section10 .ac_01_10 { 
     position: absolute;
     right: 100px;
     top: 130px;
     z-index: 100;
 }
-#footer .ac_02_footer { 
+#section10 .ac_02_10 { 
     position: absolute;
     right: 100px;
     top: 130px;
@@ -2162,7 +2162,7 @@ transform: translateY(0);
 
 
 
-#footer .bottom_footer { 
+#section10 .bottom_10 { 
     position: absolute;
     width: 100vw;
     height: 40px;
@@ -2171,7 +2171,7 @@ transform: translateY(0);
     z-index: 200;
 }
 
-#footer .bottom_frame_footer { 
+#section10 .bottom_frame_10 { 
     position: absolute;
     left: 0;
     bottom: 12px;
@@ -2181,9 +2181,174 @@ transform: translateY(0);
     overflow: hidden;
 }
 
-#footer .bottom_text_footer{
+#section10 .bottom_text_10{
     display: flex;
 }
 
 
 
+
+/************ footer *******************************/
+#footer{
+    position: relative;
+    height: 910px;
+    background: rgb(11, 11, 11);
+    overflow: hidden;
+}
+
+#footer .title01_footer {
+    position: absolute;
+    top: 130px;
+    left: 120px;
+    z-index: 100;
+    height: 99px;
+    overflow: hidden;
+}
+#footer .title01_footer img {
+    transform: translateY(99px);
+    transition: 1s;
+}
+#footer .title01_footer.on img {
+    transform: translateY(0);
+}
+
+#footer .title02_footer {
+    position: absolute;
+    top: 280px;
+    left: 120px;
+    z-index: 100;
+    height: 99px;
+    overflow: hidden;
+}
+#footer .title02_footer img {
+    transform: translateY(99px);
+    transition: 1s;
+}
+#footer .title02_footer.on img {
+    transform: translateY(0);
+}
+#footer .title03_footer {
+    position: absolute;
+    top: 250px;
+    left: 120px;
+    z-index: 100;
+}
+#footer .back_footer {
+    position: absolute;
+    top: 310px;
+    left: 1430px;
+    z-index: 100;
+}
+#footer .next_footer {
+    position: absolute;
+    top: 310px;
+    left: 1620px;
+    z-index: 100;
+}
+
+#footer .line01 {
+    position: absolute;
+    left: 120px;
+    top: 450px;
+    width: 1665px;
+    height: 2px;
+    background-color: #7e7e7e;
+    transition: all 1s;
+}
+/* #footer .line01.on {
+    width: 1745px;
+} */
+
+
+#footer .line02 {
+    position: absolute;
+    left: 120px;
+    top: 730px;
+    width: 1665px;
+    height: 2px;
+    background-color: #7e7e7e;
+    transition: all 1s;
+}
+/* #footer .line02.on {
+    width: 1745px;
+} */
+
+#footer .text01_footer {
+    position: absolute;
+    top: 520px;
+    left: 170px;
+    z-index: 100;
+}
+#footer .text02_footer {
+    position: absolute;
+    top: 520px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link01_footer {
+    position: absolute;
+    top: 570px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link02_footer {
+    position: absolute;
+    top: 600px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link03_footer {
+    position: absolute;
+    top: 630px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link04_footer {
+    position: absolute;
+    top: 660px;
+    left: 1200px;
+    z-index: 100;
+}
+#footer .link05_footer {
+    position: absolute;
+    top: 570px;
+    left: 1450px;
+    z-index: 100;
+}
+#footer .link06_footer {
+    position: absolute;
+    top: 600px;
+    left: 1450px;
+    z-index: 100;
+}
+#footer .link07_footer {
+    position: absolute;
+    top: 630px;
+    left: 1450px;
+    z-index: 100;
+}
+#footer .text03_footer {
+    position: absolute;
+    top: 755px;
+    left: 120px;
+    z-index: 100;
+}
+#footer .text04_footer {
+    position: absolute;
+    top: 755px;
+    right: 140px;
+    z-index: 100;
+}
+
+#footer .heart01_footer {
+    position: absolute;
+    top: 0px;
+    left: -300px;
+    z-index: 1;
+}
+#footer .heart02_footer {
+    position: absolute;
+    top: 300px;
+    right: -200px;
+    z-index: 1;
+}
